@@ -1,5 +1,4 @@
 var score = 0;
-var audio = new Audio('');
 // Game function
 function doClick() {  // When you click the picture
   score = score + 3;
@@ -9,8 +8,6 @@ function doClick() {  // When you click the picture
 }
 // Secrets
 function youWin() {  // Secret: Win the game
-  var overkill = new Audio('');
-  overkill.play();
   score = score + 10000000000;
   document.write("you win! perfect!<br>");
   document.write("With a score of: " + score);
