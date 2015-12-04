@@ -32,4 +32,5 @@ function initAll(picname, scorename="Score: ", width=200) {
   document.body.appendChild(z);
   document.getElementById("name").innerHTML = scorename;
   document.getElementById("scoretext").innerHTML = score;
-}
+};
+initAll()
