@@ -1,4 +1,5 @@
 var score = 0;
+var audio = new Audio('https://dl.dropboxusercontent.com/content_link/3UaLP4Z6IzeqVK1lf4sDI26dQssf123dQJQFu5Ycev3N2jAvgPIoiBoMWbZua0TD/file');
 // Game function
 function doClick() {  // When you click the picture
   score = score + 3;
