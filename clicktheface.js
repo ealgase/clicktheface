@@ -3,8 +3,7 @@ var audio = new Audio('data:audio/mp3;base64,//uYZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 // Game function
 function doClick() {  // When you click the picture
   score = score + 3;
-  if (score > 1000) document.write("Why are you still clicking?");
-  document.getElementById("scoretext").innerHTML = score;
+  document.getElementById("scoretext").innerHTML = score+" Why are you still clicking?";
   audio.play();
 }
 // Secrets
