@@ -15,11 +15,11 @@ function youWin() {  // Secret: Win the game
   document.write("you win! perfect!<br>");
   document.write("With a score of: " + score);
 }
-function youLose() {  // Secret: Get to 1000 points
-  score = 999;
-  audio.play();
-  document.getElementById("scoretext").innerHTML = score;
-}
+//function youLose() {  // Secret: Get to 1000 points
+//  score = 999;
+//  audio.play();
+//  document.getElementById("scoretext").innerHTML = score;
+//}
 // Initializer
 function initAll(picname, scorename="Score: ", width=200) {
   var x = document.createElement("IMG");
